@@ -5,11 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "eslint": "eslint src/**/*.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jest": "^29.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0"
   }
 }
